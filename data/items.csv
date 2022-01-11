@@ -1,0 +1,11 @@
+﻿name;gpu;cpu;type
+Dell XPS 15 9500;GTX 1650 Ti;Core i5;ноутбук
+Dell XPS 17 9700;GTX 1650 Ti;Core i7;ноутбук
+Lenovo ThinkPad X1 Extreme G3 T;GTX 1650 Ti;Core i9;ноутбук
+LG Gram;GTX 1650 Ti;Core i9;ноутбук
+ASUS ZenBook Pro Duo;RTX 3070;Core i7;ноутбук
+ALIENWARE AURORA R10 RYZEN EDITION;AMD Radeon RX 5600;AMD Ryzen 5 3500;Пк
+MSI TRIDENT 3 10TH;MSI GeForce RTX 2060 Super;Intel Core i7-10700;Пк
+ACER PREDATOR ORION 3000;Nvidia GeForce RTX 3070;Intel Core i7-107000;Пк
+HP OMEN 30L;Nvidia GeForce RTX 3070;Intel Core i7-10700K;Пк
+CORSAIR VENGEANCE I4200;Nvidia GeForce RTX 2070 Super;AMD Ryzen 7 3700X;Пк

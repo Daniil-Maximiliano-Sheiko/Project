@@ -1,0 +1,19 @@
+{
+  "name": "Projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.2.2",
+    "pug": "^3.0.2",
+    "stylus": "^0.56.0"
+  }
+}

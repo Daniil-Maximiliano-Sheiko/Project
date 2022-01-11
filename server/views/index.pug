@@ -1,0 +1,29 @@
+extends layout
+
+block body
+    h2 Это - контент главной страницы
+    ul
+        each pr in products
+            li
+                each el, key in pr
+                    span #{key}: #{el},&#032;
+    form#addProduct(method="POST")
+        input(type="text" name="name" placeholder="Название продукта")
+        select(name="cpu")
+            option(value="1") Core i5
+            option(value="2") Core i7
+            option(value="3") Core i9
+            option(value="4") AMD Ryzen 5 3500
+            option(value="5") Intel Core i7-10700
+            option(value="6") AMD Ryzen 7 3700X
+        select(name="gpu")
+            option(value="1") GTX 1650 Ti
+            option(value="2") RTX 3070
+            option(value="3") AMD Radeon RX 5600
+            option(value="4") GeForce RTX 2060 Super
+            option(value="5") Nvidia GeForce RTX 2070 Super
+        select(name="type")
+            option(value="Ноутбуки") Ноутбук
+            option(value="ПК") ПК
+        button(type="submit") Добавить
+    script(src="/js/addProduct.js")
